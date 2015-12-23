@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login', function () {
+    //do some login auth stuff
+    echo 'login page';
+});
+
+Route::get('logout', function () {
+    //do some login auth stuff
+    echo 'logout page';
+});
