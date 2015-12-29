@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('hello', function () {
+    //testing out this hello page
+    echo 'hello page';
+});
+
 Route::get('login', function () {
     //do some login auth stuff
     echo 'login page';
