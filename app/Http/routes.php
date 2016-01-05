@@ -23,7 +23,7 @@ Route::get('audio-test', function () {
 /*basic view pages*/
 Route::get('hello', function () {
     //testing out this hello page
-    echo 'hello page';
+    echo 'hello page again';
 });
 
 Route::get('about', function () {
