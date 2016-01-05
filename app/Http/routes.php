@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('audio-test', function () {
+    //testing out this hello page
+    return view('audio-test');
+});
+
 /*basic view pages*/
 Route::get('hello', function () {
     //testing out this hello page
@@ -51,7 +56,7 @@ Route::get('logout', function () {
 
 /*IF logged in as a sponsor user type*/
 Route::get('profile', function () {
-    //clearly need to add in the variable 
+    //clearly need to add in the variable
     echo 'hello page';
 });
 
